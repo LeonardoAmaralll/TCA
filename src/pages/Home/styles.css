@@ -1,0 +1,9 @@
+.pagesContainer{
+    background-color: whitesmoke;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}

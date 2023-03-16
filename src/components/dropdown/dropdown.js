@@ -18,9 +18,10 @@ function Dropdown(){
     return(
         <div className='dropdown'>
             <DropdownItem loc='/' name='Home' />
-            <DropdownItem loc='/contato' name='Contato' />
-            <DropdownItem loc='/fotos' name='Fotos' />
-            <DropdownItem loc='/comentarios' name='Comentários' />
+            <DropdownItem loc='/history' name='Quem Somos' />
+            <DropdownItem loc='/team' name='Equipe' />
+            <DropdownItem loc='/mission' name='Missão' />
+            <DropdownItem loc='/problems' name='Problemas e Soluções' />
         </div>
     )
 }

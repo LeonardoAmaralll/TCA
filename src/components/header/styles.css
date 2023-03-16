@@ -3,11 +3,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 nav{
-    width: 60%;
+    width: 75%;
 }
 
 ul{
@@ -17,23 +17,23 @@ ul{
 
 .listitem{
     list-style: none;
-    color: aliceblue;
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
-    font-family: 'Kdam Thmor Pro';
+    color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
-li:hover{
+.listitem:hover{
     color: red;
 }
 
 .logo{
     width: 150px;
-    height: auto;
+    height: 90px;
 }
 
-@media(max-width: 728px){
+@media(max-width: 850px){
     nav{
         display: none;
     }
